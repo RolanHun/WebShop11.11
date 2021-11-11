@@ -1,0 +1,41 @@
+main{
+    background-color: lightcyan;
+    max-width: 800px;
+    border: black solid 1px;
+    padding: 10px;
+    float: left;
+}
+article{
+    margin: auto;
+    background: lightblue;
+    display: grid;
+    grid-template-columns: 100px auto 100px;
+    grid-gap: 5px;
+}
+.stuff{
+    position: relative;
+    overflow: hidden;
+    padding: 5px;
+    padding-bottom: 30px;
+}
+.stuff span {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px 5px;
+}
+.stuff img {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.stuff button{
+    padding: 3px;
+    margin: 2px;
+    position: absolute;
+    left: 3px;
+    bottom: 5px;
+}
